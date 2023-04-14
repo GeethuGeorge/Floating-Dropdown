@@ -1,0 +1,37 @@
+//mouseover detect child elements also
+//mouseenter on parent element
+
+
+THIS KEYWORD
+
+In functional declaration and functional expression  "this" keyword represent window object 
+but in case of any callback fn in any addeventlistener the case is bit different
+                 functional declaration--->this is the elements on which addeventlistener is added
+                 functional expression----> this represent window
+
+
+
+display-none to display -block--> we cant give animate, but we can animate opacity
+opacity 0 means we cant see anything
+"opacity 0" moves to "opacity 1" when we give a "transition: all 1s"; in 1 seconds, more transition time more fade in look
+"will change -opacity"--telling in advance to browser that opacity will change, for the browser to be prepared 
+
+
+when class list mouse enter active is added,the next time when we hover we ont get that class added, because its already added there
+
+There should be a connection between List item and drop down in the menu and we give this connection by postion absolute(child or dependent) and postion relative(parent), avoid the gap between postion absolute(child or dependent) and postion relative(parent) elements, so that the dropdown wont disappear when we comes to the list below
+
+
+
+for background to be added to each dropdown
+li has anchor tag and dropdown duv under item
+so we can tell JS instead of checking the whole document  that when we hover the li , we need the drop down inside that li item--ie 
+
+"this.querySelector or the element.querySelector"
+
+ie if we need to get an item inside a parent element, we can use parentelement.querySelector()
+not necessary it need to get from document
+
+we can add queryselector to an htmlelement or to an document means select item from the document or inside that element
+
+querySelector can be used on element or document to find other elements inside it

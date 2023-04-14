@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Floating Dropdown</title>
+        <link rel="stylesheet" href="/css/style.css" />
+        <script defer src="/script.js"></script>
+    </head>
+    <body>
+        <!--Desktop Navbar starts here-->
+
+        <nav class="navbar">
+
+            <!--Navbar background-->
+            <!--to be added to back of the dropdown-->
+            <div class="dropdownBackground">
+            <span class="arrow"></span>
+            </div>
+
+            <!--Navbar background-->
+
+
+
+            <ul class="navbar__nav">
+                <li>
+                    <a href="">About Us</a>
+                    <div class="dropdown">
+                        <div class="bios flex gap-50">
+                            <div class="bio">
+                                <h3>Anne George</h3>
+                                <img src="/images/pic1.jpg" alt="" />
+                                <p>
+                                    Senior front-end developer with 7+ years of experience designing and building responsive
+                                    web design and mobile apps in the financial industry. Proficient with CSS and JS
+                                    Frameworks, with extensive knowledge of UX and user psychology.
+                                </p>
+                            </div>
+
+                            <div class="bio">
+                                <h3>Mary John</h3>
+                                <img src="/images/pic2.jpg" alt="" />
+                                <p>
+                                    Junior front-end developer with 3 years of experience designing and building responsive
+                                    web design and mobile apps in the Banking industry. Expert in CSS and JS Frameworks,
+                                    with extensive knowledge of User Interface.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="">Projects</a>
+                    <div class="dropdown">
+                        <ul class="projects">
+                            <li><a href="">Form Validation</a></li>
+                            <li><a href="">Floating DropDown</a></li>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Notes App</a></li>
+                            <li><a href="">Custom Slider</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="">News</a>
+                    <div class="dropdown">
+                        <div class="news">
+                            <h3>Latest News</h3>
+                            <p>
+                                Hello everyone! Hope that sunny summer weather does not cool off your interest in the latest
+                                developments in the JavaScript world. Expecially since many noteworthy updates have been
+                                released in June and I’m excited to share them with you.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </body>
+</html>
